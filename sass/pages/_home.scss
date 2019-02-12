@@ -6,8 +6,10 @@ header{
 	.owl-carousel{
 		position:relative;
 		.item{
-			background-size: cover !important;			    
- 		    background-position: center center !important;
+			// background-size: cover !important;			    
+ 		//     background-position: center center !important;
+ 		        background-position: center top !important;
+   				background-size: 100% 80% !important;
  		    position:relative;
  		    h3.slide-caption {
 			    position: absolute;
