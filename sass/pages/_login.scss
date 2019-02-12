@@ -1,0 +1,46 @@
+@import "helper/variable";
+.login-form{
+	label,
+	input{
+		display: block;
+	}
+	label{
+		color:#639;
+	}
+	input{
+		background: #d8baf6;
+	    border: 0;
+	    width: 80%;
+	    padding: 5px;
+	}
+	width: 60%;
+    background: rgba(236, 232, 232, 0.5);
+    margin: 40px 0;
+    border-radius: 20px;
+    h3.form-title.text-center {
+	    padding: 20px;
+	    background: #a171d1;
+	    color: #FFF;
+	    border-radius: 20px 20px 0px 0px;
+	    font-weight: normal;
+	}
+	.container{
+		padding: 20px 40px;
+		.personal-data{
+			border-left: 4px solid #a171d1;
+		}
+		.column-title{
+			color:$mov_color;
+			text-align: center;
+    		font-weight: normal;
+			&:after{
+				content: "";
+				border-bottom: 1px solid #639;
+			    width: 150px;
+			    height: 3px;
+			    display: block;
+			    margin: 10px auto;
+			}
+		}
+	}
+}
