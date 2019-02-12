@@ -7,6 +7,7 @@ $(function(){
 	// Call Owl Carousel Plugin
 	$(".owl-carousel").owlCarousel({
 		items:1,
+		nav:true,
 	});
 
 	// Set Height of Owl Carousel 
