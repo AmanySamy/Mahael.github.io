@@ -1,4 +1,10 @@
 @import "helper/variable";
+
+#page{
+	.navbar{
+		box-shadow: 0px 0px 10px #CCC;
+	}
+}
 .login-form{
 	label,
 	input{
@@ -6,6 +12,7 @@
 	}
 	label{
 		color:#639;
+		text-align: left;
 	}
 	input{
 		background: #d8baf6;
@@ -27,7 +34,7 @@
 	.container{
 		padding: 20px 40px;
 		.personal-data{
-			border-left: 4px solid #a171d1;
+			border-right: 4px solid #a171d1;
 		}
 		.column-title{
 			color:$mov_color;
