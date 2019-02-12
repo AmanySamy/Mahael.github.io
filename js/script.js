@@ -17,4 +17,23 @@ $(function(){
 
 	});
 
+	// Append Caption To Owl-nav
+	$($(".owl-item.active > .item").html()).insertAfter($(".owl-nav button.owl-prev"));
+	$(".owl-nav button.owl-prev").click(function(){
+		if($(this).next().tagName == 'h3');{
+			$(this).parent().find("h3").remove();
+			$($(".owl-item.active > .item").html()).insertAfter($(this));
+		}
+		
+	});
+	// Append Caption To Owl-nav
+	$(".owl-nav button.owl-next").click(function(){
+		if($(this).prev().tagName == 'h3');{
+			$(this).parent().find("h3").remove();
+			$($(".owl-item.active > .item").html()).insertBefore($(this));
+		}
+		
+	});
+
+
 })
