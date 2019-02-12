@@ -1,0 +1,44 @@
+body{
+	height: 3000px;
+}
+// Start Header
+header{
+	height: 80vh;
+	.owl-carousel{
+		position:relative;
+		.item{
+			background-size: cover !important;
+			// height: 100vh;
+		}
+		.item1{
+			background: url("../img/Slide_image.png") no-repeat;
+		}
+		.item2{
+			background: url("https://dummyimage.com/600x400/639/fff&text=slide2") no-repeat;
+		}
+		.item3{
+			background: url("https://dummyimage.com/600x400/639/fff&text=slide3") no-repeat;
+		}
+		.owl-dots .owl-dot{
+			span {
+			    width: 20px;
+			    height: 20px;
+			}
+			&.active,
+			&:hover{
+				span{
+					background: #663399;
+		    		border: 2px solid #FFF;
+				}
+			}
+		}
+		.owl-nav.disabled+.owl-dots {
+		    margin-top: 0px;
+		    position: absolute;
+		    bottom: 10px;
+		    left: 50%;
+		    transform: translateX(-50%);
+		}
+	}
+}
+// End Header
