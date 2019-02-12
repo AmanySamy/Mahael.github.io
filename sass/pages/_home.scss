@@ -3,12 +3,11 @@ body{
 }
 // Start Header
 header{
-	height: 80vh;
 	.owl-carousel{
 		position:relative;
 		.item{
-			background-size: cover !important;
-			// height: 100vh;
+			background-size: cover !important;			    
+ 		    background-position: center center !important;
 		}
 		.item1{
 			background: url("../img/Slide_image.png") no-repeat;
@@ -21,12 +20,15 @@ header{
 		}
 		.owl-dots .owl-dot{
 			span {
-			    width: 20px;
-			    height: 20px;
+			    width: 18px;
+			    height: 18px;
+			    background: #663399;
 			}
 			&.active,
 			&:hover{
 				span{
+					width: 20px;
+			    	height: 20px;
 					background: #663399;
 		    		border: 2px solid #FFF;
 				}

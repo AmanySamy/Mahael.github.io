@@ -6,9 +6,16 @@
 }
 .navbar{
 	padding: 0px;
+	height: 105px;
+	.navbar-brand{
+		padding: 0;
+		img{
+			width: 300px;
+		}
+	}
 	li.nav-item {
 	    border-left: 1px solid;
-	    padding: 20px;
+	    padding: 33px 20px;
 	    &.active{
 	    	background: $mov_light;
 	    	a.nav-link{
