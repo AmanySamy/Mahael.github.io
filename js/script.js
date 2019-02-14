@@ -13,7 +13,7 @@ $(function(){
 	// Set Height of Owl Carousel 
 	$(".owl-carousel ,.owl-carousel .item").innerHeight($(window).innerHeight() - $(".navbar").innerHeight() );
 	$(window).resize(function(){
-		$(".owl-carousel ,.owl-carousel .item").innerHeight($(window).innerHeight()  - $(".navbar").innerHeight() );
+		$(".owl-carousel ,.owl-carousel .item").innerHeight($(window).innerHeight()  - ($(".navbar").innerHeight() + 100 ));
 
 	});
 
